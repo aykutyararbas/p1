@@ -2,7 +2,7 @@ Make sure you loaded p1.js
 
 #Usage
 In your page  include 
-dist/p1.js
+dist/p1.min.js
 ## Sender side 
 ## Create schema
 var schemaJSON = serializer.getSchema(aJSON);
