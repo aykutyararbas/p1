@@ -1,0 +1,23 @@
+{
+  "name": "p1",
+  "description": "JSON with Schema",
+  "main": "''",
+  "authors": [
+    "Aykut Yararbas"
+  ],
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "json",
+    "mapping",
+    "schema",
+    "performance"
+  ],
+  "homepage": "https://github.com/aykutyararbas/p1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

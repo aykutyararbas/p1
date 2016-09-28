@@ -1,0 +1,34 @@
+{
+  "name": "p1",
+  "version": "1.0.0",
+  "description": "JSON with Schema",
+  "main": "''",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "bower": "^1.7.9"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aykutyararbas/p1.git"
+  },
+  "keywords": [
+    "json",
+    "mapping",
+    "schema",
+    "performance"
+  ],
+  "author": "Aykut Yararbas",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/aykutyararbas/p1/issues"
+  },
+  "homepage": "https://github.com/aykutyararbas/p1#readme"
+}
