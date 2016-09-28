@@ -3,7 +3,7 @@ JSON with Schema
 Aykut Yararbas
 ayararbas@gmail.com
 
-2016-19-10
+2016-9-10
 
 
 JSON is a light-weight, language independent, data interchange format.
@@ -58,12 +58,12 @@ var schemaJSON = serializer.getSchema(aJSON);
 var minifiedJSONString = serializer.minify(aJSON); 
 //Transfer minified json string
 
+
 ## Receiver side
 ## Parse minified using schema
 var parserMapping = mapper.map(schemaJSON);
-#Initialize parser using mapping and minifiedJSONString
 parsers.init(parserMapping, minifiedJSONString);
-#Parse the result
+
 var result = parsers.parse(); 
 
 
