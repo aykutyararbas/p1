@@ -61,9 +61,8 @@ var minifiedJSONString = serializer.minify(aJSON);
 ## Receiver side
 ## Parse minified using schema
 var parserMapping = mapper.map(schemaJSON);
-#Initialize parser using mapping and minifiedJSONString
 parsers.init(parserMapping, minifiedJSONString);
-#Parse the result
+
 var result = parsers.parse(); 
 
 
