@@ -58,6 +58,7 @@ var schemaJSON = serializer.getSchema(aJSON);
 var minifiedJSONString = serializer.minify(aJSON); 
 //Transfer minified json string
 
+
 ## Receiver side
 ## Parse minified using schema
 var parserMapping = mapper.map(schemaJSON);
