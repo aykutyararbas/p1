@@ -1,4 +1,4 @@
-Make sure node-stringfy is insatalled 
+Make sure node-stringfy is installed 
 
 ## Running serializer tests
 node serializerTests.js
