@@ -50,7 +50,9 @@ Net gain will increase exponentially as you transfer more objects with same sche
 node folder contains scripts to be used with node json
 
 #Usage
-## Sender side 
+## Sender is one creates schema,  minifies JSON and sends schema and JSON
+## Receiver is the one gets the schema , uses is to parse , decryp incoming optimized JSON
+## Sender  
 ## Create schema
 var schemaJSON = serializer.getSchema(aJSON);
 // Transfer schemaJSON
@@ -59,7 +61,7 @@ var minifiedJSONString = serializer.minify(aJSON);
 //Transfer minified json string
 
 
-## Receiver side
+## Receiver 
 ## Parse minified using schema
 var parserMapping = mapper.map(schemaJSON);
 parsers.init(parserMapping, minifiedJSONString);
